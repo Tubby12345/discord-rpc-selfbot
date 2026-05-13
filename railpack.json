@@ -7,7 +7,7 @@
         { "src": "package.json", "dest": "package.json" },
         { "src": "package-lock.json", "dest": "package-lock.json" },
 
-        { "cmd": "npm install", "customName": "Install dependencies" }
+        { "cmd": "npm install --include=dev", "customName": "Install dependencies" }
       ]
     },
     "build": {
